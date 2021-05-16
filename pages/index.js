@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -6,7 +7,13 @@ export default function Home() {
       <Head>
         <title>FaceBook</title>
       </Head>
-      <h2>FaceBook Application using NextJS and TailwindCSS</h2>
+      {/* Header */}
+      <Header />
+      <main>
+        {/* Sidebar */}
+        {/* Feed */}
+        {/* Widgets */}
+      </main>
     </div>
   );
 }
